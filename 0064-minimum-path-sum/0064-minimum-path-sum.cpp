@@ -11,14 +11,6 @@ public:
         {
             return v[i][j]=grid[i][j];
         }
-        if(i==n-1)
-        {
-            return v[i][j]=grid[i][j] + sol(grid,i,j+1,n,m,v);
-        }
-        if(j==m-1)
-        {
-            return v[i][j]=grid[i][j] + sol(grid,i+1,j,n,m,v);
-        }
         
         int r = sol(grid,i,j+1,n,m,v);
         int d = sol(grid,i+1,j,n,m,v);
