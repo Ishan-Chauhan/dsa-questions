@@ -12,9 +12,9 @@ class Solution {
 public:
     ListNode* reverseList(ListNode* head) {
         if(head==NULL || head->next==NULL) return head;
-        ListNode *a=head,*b=head->next,*c=head->next->next;
+        ListNode *a=NULL,*b=head,*c=head->next;
         
-        a->next=NULL;
+        // a->next=NULL;
         
         while(b!=NULL)
         {
