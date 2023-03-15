@@ -20,19 +20,23 @@ public:
 
 class Solution {
 public:
-    void sol(Node* root, vector<int>& ans)
-    {
-        if(root==NULL) return;
-        ans.push_back(root->val);
-        
-        for(auto& it: root->children)
-        {
-            sol(it, ans);
-        }
-    }
     vector<int> preorder(Node* root) {
         vector<int> ans;
-        sol(root, ans);
+        if(root==NULL) return ans;
+        
+        Node* temp;
+        
+        stack<Node*> st;
+        st.push(root);
+        
+        while(!st.empty())
+        {
+            temp = st.top();
+            st.pop();
+            ans.push_back(temp->val);
+            
+            for(int i=temp->children.size()-1; i>=0; i--) st.push(temp->children[i]);
+        }
         return ans;
     }
 };
