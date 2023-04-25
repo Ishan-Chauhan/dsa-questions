@@ -1,6 +1,6 @@
 class SmallestInfiniteSet {
 public:
-    map<int,int> m;
+    unordered_map<int,int> m;
     int c=1;
     SmallestInfiniteSet() {
         
