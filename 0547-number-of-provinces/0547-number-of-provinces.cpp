@@ -31,14 +31,6 @@ public:
                 c++;
                 dfs(i, adj, v);
             }
-            // for(auto& it: adj[i])
-            // {
-            //     if(v[it]==0)
-            //     {
-            //         c++;
-            //         dfs(it, adj, v);
-            //     }
-            // }
         }
         return c;
     }
