@@ -12,29 +12,18 @@
 class Solution {
 public:
     int diff=INT_MAX;
-    int succ(TreeNode* root)
+    TreeNode* prev=NULL;
+    void sol(TreeNode* root)
     {
-        while(root->left!=NULL)
-            root=root->left;
-        return root->val;
-    }
-    int pre(TreeNode* root)
-    {
-        while(root->right!=NULL)
-            root=root->right;
-        return root->val;
+        if(root==NULL) return;
+        sol(root->left);
+        if(prev!=NULL) diff = min(diff, abs(root->val-prev->val));
+        prev=root;
+        sol(root->right);
+        
     }
     int getMinimumDifference(TreeNode* root) {
-        if(root->left)
-        {
-            diff=min(diff,abs(root->val-pre(root->left)));
-            getMinimumDifference(root->left);
-        }
-        if(root->right)
-        {
-            diff=min(diff,abs(root->val-succ(root->right)));
-            getMinimumDifference(root->right);
-        }
+        sol(root);
         return diff;
     }
 };
