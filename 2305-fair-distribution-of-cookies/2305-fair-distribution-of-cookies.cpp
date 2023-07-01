@@ -2,6 +2,8 @@ class Solution {
 public:
     int dfs(int i, vector<int>& cookies, vector<int>& dist, int k, int zero)
     {
+        if(cookies.size()-i < zero) return INT_MAX;
+        
         if(i==cookies.size()) return *max_element(dist.begin(), dist.end());
         
         int ans=INT_MAX;
