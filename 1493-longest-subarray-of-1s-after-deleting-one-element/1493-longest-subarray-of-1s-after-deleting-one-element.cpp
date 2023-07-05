@@ -34,7 +34,7 @@ public:
             
             // cout<<j<<" "<<i<<endl;
             if(j!=n && (nums[j]!=0 || c==0))
-            ans=max(ans,j-i);
+                ans=max(ans,j-i);
         }
         
         if(ans==n) return n-1;
