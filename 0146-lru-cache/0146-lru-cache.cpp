@@ -1,76 +1,89 @@
-class LRUCache {
+class node{
 public:
-    class node{
-        public:
-            int key;
-            int val;
-            node* next;
-            node* prev;
-            node(int k, int v)
-            {
-                key = k;
-                val = v;
-            }
-    };
+    int key;
+    int val;
+    node *next, *prev;
+
+    node(int k, int v)
+    {
+        key=k;
+        val=v;
+    }
+};
+class LRUCache {   
+public:
     int cap;
-    map<int,node*> m;
-    
-    node* head = new node(-1,-1);
-    node* tail = new node(-1,-1);
+    node *head, *tail;
+    unordered_map<int, node*> mp;
     
     LRUCache(int capacity) {
-        cap = capacity;
+        cap=capacity;
+        head = new node(-1,-1);
+        tail = new node(-1,-1);
         head->next=tail;
         tail->prev=head;
     }
     
-    void addnode(node* p)
+    void pri(node* x)
     {
-        node* temp = head->next;
-        p->next = temp;
-        p->prev = head;
-        temp->prev = p;
-        head->next = p;
-    }
-    
-    void delnode(node* p)
-    {
-        node* pre = p->prev;
-        node* nxt = p->next;
-        pre->next =  nxt;
-        nxt->prev = pre;
+        while(x!=tail)
+        {
+            cout<<x->val<<" ";
+            x = x->next;
+        }
+        cout<<endl;
     }
     
     int get(int key) {
-        if(m.find(key)!=m.end())
-        {
-            node *p = m[key];
-            m.erase(key);
-            delnode(p);
-            addnode(p);
-            m[key] = head->next;
-            return p->val;
-        }
-        return -1;
+        if(mp.find(key)==mp.end()) return -1;
+        
+        node* temp = mp[key];
+        
+        (temp->prev)->next=temp->next;
+        (temp->next)->prev=temp->prev;
+        
+        temp->next = head->next;
+        (head->next)->prev = temp;
+        
+        head->next = temp;
+        temp->prev=head;
+        // cout<<(head->next)->val<<endl;
+        // pri(head->next);
+        return temp->val;
     }
     
     void put(int key, int value) {
-        node* p = new node(key, value);
-        if(m.find(key)!=m.end())
+        node* temp;
+        if(mp.find(key)!=mp.end())
         {
-            node* exist = m[key];
-            m.erase(key);
-            delnode(exist);
+            temp = mp[key];
+            (temp->prev)->next=temp->next;
+            (temp->next)->prev=temp->prev;
+            temp->val = value;
         }
-        else if(m.size()==cap)
+        else
         {
-            node* p = tail->prev;
-            m.erase(p->key);
-            delnode(p);
+            temp = new node(key, value);
+            mp[key] = temp;
+            if(cap==0)
+            {
+                node* del = tail->prev;
+                (del->prev)->next = del->next;
+                (del->next)->prev=del->prev;
+                mp.erase(mp.find(del->key));
+                // delete del;
+            }
+            else cap--;
         }
+        // cout<<key;
         
-        m[key] = p;
-        addnode(p);
+        temp->next = head->next;
+        (head->next)->prev = temp;
+
+        head->next = temp;
+        temp->prev=head;
+        // pri(head->next);
+        // cout<<(head->next)->val<<endl;
     }
 };
 
