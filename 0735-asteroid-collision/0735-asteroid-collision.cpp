@@ -7,26 +7,22 @@ public:
         for(int i=0;i<n;i++)
         {
             f=0;
-            if(st.empty()) st.push(a[i]);
-            
-            else if(a[i]<0 && st.top()>0)
+            while(!st.empty() && a[i]<0 && st.top()>0)
             {
-                while(!st.empty() && a[i]<0 && st.top()>0)
+                if(abs(a[i]) > st.top())
                 {
-                    if(abs(a[i]) > st.top()) st.pop();
-                    else if(abs(a[i]) == st.top()) 
-                    {
-                        f=1;
-                        st.pop();
-                        break;
-                    }
-                    else break;
+                    st.pop();
+                    continue;
                 }
-                if(st.empty() && f==0) st.push(a[i]);
-                else if(!st.empty() && a[i]*st.top()>0 && f==0) st.push(a[i]);
+                else if(abs(a[i]) == st.top())
+                {
+                    st.pop();
+                }
+                f=1;
+                break;
             }
             
-            else st.push(a[i]);
+            if(!f) st.push(a[i]);
         }
         
         n=st.size();
