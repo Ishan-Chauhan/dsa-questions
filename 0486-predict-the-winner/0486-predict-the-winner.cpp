@@ -1,18 +1,23 @@
 class Solution {
 public:
-    int sol(vector<int>& nums, int i, int j)
+    int sol(vector<int>& nums, int i, int j, vector<vector<int>>& dp)
     {
         if(i==j) return nums[i];
         
-        int start = nums[i] - sol(nums, i+1, j);
-        int end = nums[j] - sol(nums, i, j-1);
+        if(dp[i][j]!=1e8) return dp[i][j];
         
-        return max(start, end);
+        int start = nums[i] - sol(nums, i+1, j, dp);
+        int end = nums[j] - sol(nums, i, j-1, dp);
+        
+        return dp[i][j] = max(start, end);
     }
     bool PredictTheWinner(vector<int>& nums) {
         
+        
         int n=nums.size();
-        int ans = sol(nums,0,n-1);
+        
+        vector<vector<int>> dp(n, vector<int>(n, 1e8));
+        int ans = sol(nums,0,n-1,dp);
         
         return ans>=0;
     }
