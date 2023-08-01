@@ -22,7 +22,7 @@ public:
                 break;
             }
             
-            if(!f) st.push(a[i]);
+            if(f==0) st.push(a[i]);
         }
         
         n=st.size();
