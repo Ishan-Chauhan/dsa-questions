@@ -10,6 +10,7 @@ public:
         {
             m[fruits[j]]++;
             if(m[fruits[j]]==1) c++;
+            
             if(c<=2)
             {
                 ans = max(ans,j-i+1);
