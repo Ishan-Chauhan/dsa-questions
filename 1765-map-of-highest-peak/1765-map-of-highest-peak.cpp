@@ -28,7 +28,6 @@ public:
                 int x=q.front()[0];
                 int y=q.front()[1];
                 
-                // cout<<x<<" "<<y<<" "<<c<<endl;
                 
                 q.pop();
                 
