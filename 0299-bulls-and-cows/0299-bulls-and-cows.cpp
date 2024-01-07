@@ -7,16 +7,6 @@ public:
         for(int i=0;i<n;i++)
         {
             if(s[i]==g[i]) a++;
-            // else
-            // {
-            //     m[s[i]]++;
-            //     if(m[g[i]]>0) 
-            //     {
-            //         b++;
-            //         m[g[i]]--;
-            //     }
-            //     else mp[g[i]]++;
-            // }
             else
             {
                 m[s[i]]++;
@@ -25,7 +15,6 @@ public:
         }
         for(auto it: mp)
         {
-            // cout<< it.first<<" ";
             if(m[it.first]>0)
             {
                 int x = min(m[it.first],mp[it.first]);
