@@ -8,7 +8,6 @@ public:
         {
             if(pre[i]=='#')
             {
-                // if(st.empty()) return false;
                 while(!st.empty() && st.top()==pre[i])
                 {
                     st.pop();
