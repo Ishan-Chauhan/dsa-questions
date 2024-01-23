@@ -24,15 +24,15 @@ public:
         tail->prev=head;
     }
     
-    void pri(node* x)
-    {
-        while(x!=tail)
-        {
-            cout<<x->val<<" ";
-            x = x->next;
-        }
-        cout<<endl;
-    }
+    // void pri(node* x)
+    // {
+    //     while(x!=tail)
+    //     {
+    //         cout<<x->val<<" ";
+    //         x = x->next;
+    //     }
+    //     cout<<endl;
+    // }
     
     int get(int key) {
         if(mp.find(key)==mp.end()) return -1;
