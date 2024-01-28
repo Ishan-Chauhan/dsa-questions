@@ -16,7 +16,6 @@ public:
         int n = lists.size();
         for(int i=0;i<n;i++)
         {
-            // for(int j=0;j<lists[i].size();j++) m[lists[i][j]->val].push_back(lists[i][j]);
             ListNode* temp = lists[i];
             while(temp!=NULL)
             {
@@ -30,7 +29,6 @@ public:
         {
             for(auto& i:it.second)
             {
-                // cout<<i->val<<" ";
                 if(head==NULL)
                 {
                     head=i;
