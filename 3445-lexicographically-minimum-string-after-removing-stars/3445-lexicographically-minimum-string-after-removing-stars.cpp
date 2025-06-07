@@ -1,6 +1,6 @@
 class Solution {
 public:
-    string clearStars(string s) {
+    string clearStars(string& s) {
         int k,n=s.size();
 
         vector<stack<int>> v(26);
