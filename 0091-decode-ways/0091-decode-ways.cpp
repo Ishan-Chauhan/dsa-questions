@@ -1,31 +1,46 @@
 class Solution {
 public:
-    int sol(string s, int i, int n, vector<int> &dp)
-    {
-        if(i==n) return 1;
-        if(i>n) return 0;
-        
-        if(dp[i]!=-1) return dp[i];
-        
-        if(s[i]=='1') return dp[i] = sol(s,i+1,n,dp) + sol(s,i+2,n,dp);
-        
-        if(s[i]=='2')
-        {
-            if(i<n-1 && s[i+1]>='0' && s[i+1]<='6') return dp[i]= sol(s,i+1,n,dp)+sol(s,i+2,n,dp);
-            else return dp[i] = sol(s,i+1,n,dp);
-        }
-        
-        if(s[i]=='0') return dp[i] = 0;
-        
-        return dp[i] = sol(s,i+1,n,dp);
-        
-    }
     int numDecodings(string s) {
+        // return 0;
+        if(s[0]=='0') return 0;
         int n=s.size();
-        vector<int> dp(n,-1);
-        
-        int x = sol(s, 0, n, dp);
-        
-        return dp[0];
+        if(n==1) return 1;
+
+        vector<int> dp(n, 0);
+        dp[0] = 1;
+        int x;
+        x = (s[0]-'0')*10 + (s[1]-'0');
+
+        if(x>=1 && x<=26) 
+        {
+            if(x%10==0) dp[1]=1;
+            else dp[1] = 2;
+        }
+        else if(x%10==0) return 0;
+        else dp[1] = 1;
+
+        for(int i=2;i<n;i++)
+        {
+            if(s[i-1]=='0') 
+            {
+                if(s[i]=='0') return 0;
+                dp[i] = dp[i-1];
+                // cout<<dp[i]<<" ";
+                continue;
+            }
+
+            x = (s[i-1]-'0')*10 + (s[i]-'0');
+
+            if(x>=1 && x<=26) 
+            {
+                if(x%10==0) dp[i] = dp[i-2];
+                else dp[i] = dp[i-1] + dp[i-2];
+            }
+            else if(x%10==0) return 0;
+            else dp[i] = dp[i-1];
+
+            // cout<<dp[i]<<" ";
+        }
+        return dp[n-1];
     }
 };
