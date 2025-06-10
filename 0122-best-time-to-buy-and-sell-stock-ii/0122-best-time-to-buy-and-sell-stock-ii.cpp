@@ -21,7 +21,7 @@ public:
                     dp[i] = max(dp[i], curr-prices[j]+dp[j]);
                 }
             }
-            cout<<dp[i]<<" ";
+            // cout<<dp[i]<<" ";
         }
 
         return dp[n];
