@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Heap (Priority Queue)
@@ -59,4 +60,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
+## Math
+|  |
+| ------- |
+| [2704-maximum-difference-by-remapping-a-digit](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 <!---LeetCode Topics End-->
