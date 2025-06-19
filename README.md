@@ -21,6 +21,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3241-divide-array-into-arrays-with-max-difference) |
@@ -44,12 +45,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Sorting
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0056-merge-intervals) |
+| [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [3241-divide-array-into-arrays-with-max-difference](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3241-divide-array-into-arrays-with-max-difference) |
 ## Dynamic Programming
 |  |
