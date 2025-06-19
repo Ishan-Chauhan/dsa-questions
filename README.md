@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0056-merge-intervals](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0056-merge-intervals) |
+| [0074-search-a-2d-matrix](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2144-maximum-difference-between-increasing-elements) |
@@ -67,10 +68,15 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0074-search-a-2d-matrix) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
 ## Math
 |  |
 | ------- |
 | [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2704-maximum-difference-by-remapping-a-digit](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2704-maximum-difference-by-remapping-a-digit) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
