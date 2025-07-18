@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Depth-First Search
 |  |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0594-longest-harmonious-subsequence](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0594-longest-harmonious-subsequence) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2144-maximum-difference-between-increasing-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2144-maximum-difference-between-increasing-elements) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [2320-find-all-k-distant-indices-in-an-array](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2320-find-all-k-distant-indices-in-an-array) |
 | [2387-partition-array-such-that-maximum-difference-is-k](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2387-partition-array-such-that-maximum-difference-is-k) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 ## Counting
 |  |
 | ------- |
