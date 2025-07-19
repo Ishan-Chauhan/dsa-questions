@@ -1,26 +1,27 @@
 class Solution {
 public:
-    int sol(vector<int> nums, int l,int r,int target)
-    {
-        if(l>r) return -1;
-        int mid=l+(r-l)/2;
-        if(nums[mid]==target) return mid;
-        if(nums[mid]<nums[r])
+    int search(vector<int>& arr, int target) {
+        int n=arr.size();
+
+        int l=0,r=n-1,mid;
+
+        while(l<=r)
         {
-            if(target>nums[mid] && target<=nums[r])
-                return sol(nums,mid+1,r,target);
-            return sol(nums,l,mid-1,target);
+            mid = l + (r-l)/2;
+            if(arr[mid]==target) return mid;
+            if(l==r) return -1;
+
+            if(arr[mid+1]<=arr[r])
+            {
+                if(target>=arr[mid+1] && target<=arr[r]) l=mid+1;
+                else r=mid-1;
+            }
+            else
+            {
+                if(target>=arr[l] && target<=arr[mid-1]) r=mid-1;
+                else l=mid+1;
+            }
         }
-        else if(nums[l]<nums[mid])
-        {
-            if(target>=nums[l] && target<nums[mid])
-                return sol(nums,l,mid-1,target);
-            // return sol(nums,mid+1,r,target);   
-        }
-        return sol(nums,mid+1,r,target);   
-        //return -1;
-    }
-    int search(vector<int>& nums, int target) {
-        return sol(nums,0,nums.size()-1,target);
+        return -1;
     }
 };
