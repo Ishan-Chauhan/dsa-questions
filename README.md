@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0056-merge-intervals](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0074-search-a-2d-matrix) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0033-search-in-rotated-sorted-array](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0074-search-a-2d-matrix) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2720-minimize-the-maximum-difference-of-pairs](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2720-minimize-the-maximum-difference-of-pairs) |
