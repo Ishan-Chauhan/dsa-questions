@@ -38,7 +38,6 @@ public:
         else 
         {
             ans += point(temp, 'b', 'a', y);
-            // cout<<temp;
             ans += point(temp, 'b', 'a', x);
         }
 
