@@ -34,12 +34,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Heap (Priority Queue)
 |  |
 | ------- |
+| [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0386-lexicographical-numbers) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
 ## Trie
 |  |
 | ------- |
@@ -74,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0091-decode-ways](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0091-decode-ways) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
 ## Counting
 |  |
@@ -118,4 +121,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+## Graph
+|  |
+| ------- |
+| [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+## Shortest Path
+|  |
+| ------- |
+| [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
 <!---LeetCode Topics End-->
