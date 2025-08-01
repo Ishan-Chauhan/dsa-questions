@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0594-longest-harmonious-subsequence](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0594-longest-harmonious-subsequence) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3753-maximum-difference-between-even-and-odd-frequency-i](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/3753-maximum-difference-between-even-and-odd-frequency-i) |
 ## String
@@ -44,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0386-lexicographical-numbers) |
 | [0794-swim-in-rising-water](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Trie
 |  |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Shortest Path
 |  |
@@ -152,5 +155,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0794-swim-in-rising-water) |
+| [0984-most-stones-removed-with-same-row-or-column](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0984-most-stones-removed-with-same-row-or-column) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 <!---LeetCode Topics End-->
