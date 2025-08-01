@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0386-lexicographical-numbers](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0386-lexicographical-numbers) |
 | [0794-swim-in-rising-water](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Trie
 |  |
 | ------- |
@@ -133,10 +134,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0794-swim-in-rising-water) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Graph
 |  |
 | ------- |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 ## Shortest Path
 |  |
 | ------- |
@@ -149,4 +152,5 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0794-swim-in-rising-water) |
+| [1442-number-of-operations-to-make-network-connected](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/1442-number-of-operations-to-make-network-connected) |
 <!---LeetCode Topics End-->
