@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/0803-cheapest-flights-within-k-stops) |
 | [2267-minimum-difference-in-sums-after-removal-of-elements](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2267-minimum-difference-in-sums-after-removal-of-elements) |
+| [2882-ways-to-express-an-integer-as-sum-of-powers](https://github.com/Ishan-Chauhan/dsa-questions/tree/master/2882-ways-to-express-an-integer-as-sum-of-powers) |
 ## Counting
 |  |
 | ------- |
